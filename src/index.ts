@@ -5,10 +5,10 @@ import cors from "cors";
 import helmet from "helmet";
 import morgan from "morgan";
 /* ROUTE IMPORTS */
-import dashboardRoutes from "./routes/dashboardRoutes";
-import productRoutes from "./routes/productRoutes";
-import userRoutes from "./routes/userRoutes";
-import expenseRoutes from "./routes/expenseRoutes";
+import dashboardRoutes from "./routes/dashboard.router";
+import productRoutes from "./routes/product.router";
+import userRoutes from "./routes/user.router";
+import expenseRoutes from "./routes/expense.router";
 
 /* CONFIGURATIONS */
 dotenv.config();
